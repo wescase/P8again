@@ -1,34 +1,46 @@
-﻿Build started 4/13/15 7:07:44 PM.
-     1>Project "\\psf\Home\Documents\School\CS1410\Project_8\Project_8\Project_8.vcxproj" on node 2 (Build target(s)).
+﻿Build started 4/14/15 11:22:04 AM.
+     1>Project "\\psf\Home\Documents\School\CS1410\P8again\Project_8\Project_8\Project_8.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Driver.cpp
          Driver.cpp
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(39): warning C4018: '<' : signed/unsigned mismatch
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(41): error C2057: expected constant expression
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(41): error C2466: cannot allocate an array of constant size 0
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(41): error C2143: syntax error : missing ';' before '->'
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(41): error C2133: 'accVector' : unknown size
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(50): warning C4018: '<' : signed/unsigned mismatch
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(52): error C2541: 'delete' : cannot delete objects that are not pointers
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(116): warning C4018: '<' : signed/unsigned mismatch
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(118): error C2227: left of '->makeDeposit' must point to class/struct/union/generic type
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\myvector.h(182): error C2244: 'MyVector<T>::operator []' : unable to match function definition to an existing declaration
+                 definition
+                 'T &MyVector<T>::operator [](int)'
+                 existing declarations
+                 'int &MyVector<T>::operator [](int)'
+                 'int MyVector<T>::operator [](int) const'
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\myvector.h(253): error C2244: 'MyVector<T>::at' : unable to match function definition to an existing declaration
+                 \\psf\home\documents\school\cs1410\p8again\project_8\project_8\myvector.h(73) : see declaration of 'MyVector<T>::at'
+                 definition
+                 'T MyVector<T>::at(T)'
+                 existing declarations
+                 'int MyVector<T>::at(T)'
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(41): error C2057: expected constant expression
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(41): error C2466: cannot allocate an array of constant size 0
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(41): error C2143: syntax error : missing ';' before '->'
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(41): error C2133: 'accVector' : unknown size
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(52): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(116): warning C4018: '<' : signed/unsigned mismatch
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(118): error C2227: left of '->makeDeposit' must point to class/struct/union/generic type
                  type is 'int'
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(121): warning C4018: '<' : signed/unsigned mismatch
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(123): error C2227: left of '->makeWithdrawl' must point to class/struct/union/generic type
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(121): warning C4018: '<' : signed/unsigned mismatch
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(123): error C2227: left of '->makeWithdrawl' must point to class/struct/union/generic type
                  type is 'int'
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(131): warning C4018: '<' : signed/unsigned mismatch
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(133): error C2541: 'delete' : cannot delete objects that are not pointers
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(148): warning C4018: '<' : signed/unsigned mismatch
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(152): error C2227: left of '->getAccountNumber' must point to class/struct/union/generic type
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(133): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(152): error C2227: left of '->getAccountNumber' must point to class/struct/union/generic type
                  type is 'int'
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(152): error C2227: left of '->getPerson' must point to class/struct/union/generic type
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(152): error C2227: left of '->getPerson' must point to class/struct/union/generic type
                  type is 'int'
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(152): error C2228: left of '.getName' must have class/struct/union
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(152): error C2228: left of '.getAddress' must have class/struct/union
-     1>\\psf\home\documents\school\cs1410\project_8\project_8\driver.cpp(152): error C2227: left of '->getAccountBalance' must point to class/struct/union/generic type
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(152): error C2228: left of '.getName' must have class/struct/union
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(152): error C2228: left of '.getAddress' must have class/struct/union
+     1>\\psf\home\documents\school\cs1410\p8again\project_8\project_8\driver.cpp(152): error C2227: left of '->getAccountBalance' must point to class/struct/union/generic type
                  type is 'int'
-     1>Done Building Project "\\psf\Home\Documents\School\CS1410\Project_8\Project_8\Project_8.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "\\psf\Home\Documents\School\CS1410\P8again\Project_8\Project_8\Project_8.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.78
+Time Elapsed 00:00:00.87

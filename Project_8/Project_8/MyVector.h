@@ -92,7 +92,7 @@ private:
 	// Variables
 	int mass;
 	int volume;
-	int* vPointer;
+	T* vPointer;
 };
 
 // -------------------- cpp methods --------------------
@@ -173,7 +173,7 @@ int MyVector<T>::operator[](int i) const
 
 
 template <typename T>
-int& MyVector<T>::operator[](int i)
+T& MyVector<T>::operator[](int i)
 {
 	if (i < volume)
 	{
@@ -243,7 +243,7 @@ void MyVector<T>::push_back(T _newEle)
 
 
 template <typename T>
-int MyVector<T>::at(T _pos)
+T MyVector<T>::at(T _pos)
 {
 	if (_pos >= mass)
 	{
